@@ -51,16 +51,10 @@
 		main_ser_fun.c //功能函数的实现
 
 	dict.db :这个文件包括翻译的词典,用户注册的信息,用户历史记录.
-
+	
+	copy_test_to_sqlite3_db.c 转化txt格式字典为数据库字典表
 
 	具体操作:
+	编译opy_test_to_sqlite3_db.c，执行./a.out
 	执行make，然后先运行服务器（ser），在执行客户端（cli）
-
-
-
-
-
-	  
-
-
 
